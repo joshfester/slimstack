@@ -15,3 +15,4 @@ NGINX
 - In nginx/sites/production.conf, find and replace all instances of @SITE_DOMAIN and @SITE_DOMAIN_EXCLUDING_WWW
 - Copy wordpress/wp-config-production.php into your-project-root/wp-config.php
 - In the wp-config, edit the database connection, replace all instances of @SITE_DOMAIN and @WP_DEFAULT_THEME
+- Copy wordpress/mu-plugins to your-project-root/wp-content/mu-plugins
