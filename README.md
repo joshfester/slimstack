@@ -11,6 +11,7 @@ NGINX
 
 - Rename your existing config files on the server (e.g. rename /etc/nginx/nginx.conf to /etc/nginx/nginx.original.conf)
 - Copy files from /nginx and /php into the respective locations on the server
+- In php/8.1/php.ini, replace all instances @PROJECT_ROOT
 - In nginx/nginx.conf, find and replace all instances of @SITE_TLD
 - In nginx/sites/production.conf, find and replace all instances of @SITE_DOMAIN and @SITE_DOMAIN_EXCLUDING_WWW
 - Copy wordpress/wp-config-production.php into your-project-root/wp-config.php
