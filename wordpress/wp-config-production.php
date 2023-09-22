@@ -145,6 +145,7 @@ define('WP_DEFAULT_THEME', '@WP_DEFAULT_THEME'); // ss = hovercraft
 /** any plugins or themes that require cache directory are improperly coded */
 
 define('WP_CACHE', false); // ss = false
+define('OBJECT_CACHE', true); // default = true
 
 /** ********************************************************************************************* */
 /** WP-Config: File + Upload + API Permissions Settings ***************************************** */
@@ -223,7 +224,7 @@ define('FORCE_HTTPS_INTERNAL_RESOURCES', true); // ss = true
 /** ********************************************************************************************* */
 
 define('DISABLE_NAG_NOTICES', true); // ss = true
-define('WPCF7_UPLOADS_TMP_DIR', '/var/www/html/wp-content/temp'); // ss = /var/www/html/wp-content/temp
+define('WPCF7_UPLOADS_TMP_DIR', '@PROJECT_ROOT/wp-content/temp'); // ss = /var/www/html/wp-content/temp
 
 /** ********************************************************************************************* */
 /** WP-Config (Production): Inactive Defined Constants (Modify With Custom Functions) *********** */
@@ -232,9 +233,9 @@ define('WPCF7_UPLOADS_TMP_DIR', '/var/www/html/wp-content/temp'); // ss = /var/w
 /** the following defined constants should not be hardcoded to allow for modification */
 /** modify these constants using the custom-functions.php script or otherwise */
 
-// define( 'WP_ALLOW_REPAIR', false ); // ss = false
-// define( 'SAVEQUERIES', false ); // ss = false
-// define( 'SCRIPT_DEBUG', false ); // ss = false
+define('WP_ALLOW_REPAIR', false); // ss = false
+define('SAVEQUERIES', false); // ss = false
+define('SCRIPT_DEBUG', false); // ss = false
 
 /** ********************************************************************************************* */
 /** WP-Config (Production): Require WP-Settings File (MUST APPEAR LAST) ************************* */
