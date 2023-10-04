@@ -4,7 +4,7 @@
 /** link: https://slickstack.io ***************************************************************** */
 /** mirror: https://mirrors.slickstack.io/modules/wordpress/wp-config-production.txt ************ */
 /** path: n/a (boilerplate) ********************************************************************* */
-/** destination: /var/www/html/wp-config.php (after install) ************************************ */
+/** destination: /path/to/project/wp-config.php (after install) ************************************ */
 /** purpose: WordPress configuration file boilerplate for SlickStack production sites *********** */
 /** module version: WordPress 6.2.x ************************************************************* */
 /** sourced by: wp-settings.php ***************************************************************** */

@@ -4,10 +4,14 @@ Configuration for Wordpress, PHP, and NGINX. Based on [SlickStack](https://githu
 
 ## Prerequisites
 
-PHP 8+
-NGINX
-nginx-extras
-certbot
+- PHP 8+
+- NGINX
+- nginx-extras
+- certbot
+
+## Overview
+
+This configuration sets up PHP to run over TCP port 9000. NGINX will use FastCGI cache to bypass PHP on all frontend pages. The cache gets purged automatically by the clear-caches mu-plugin
 
 ## Instructions
 
